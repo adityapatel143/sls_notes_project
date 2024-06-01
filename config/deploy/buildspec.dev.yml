@@ -10,6 +10,7 @@ phases:
       - npm i -g serverless@3
       - echo Installing npm dependencies of notes service
       - npm install
+      - ls -la
 
   build:
     on-failure: ABORT
